@@ -9,3 +9,11 @@
 .text-shadow {
     text-shadow: 3px 3px 3px #000000;
 }
+
+.icons-animation {
+    transition: all 0.5s ease-in-out;
+}
+
+.icons-animation:hover {
+    transform: scale(1.3)
+}
