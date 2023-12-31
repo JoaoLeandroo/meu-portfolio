@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.my-image {
+    filter: drop-shadow(20px 0px 8px #000000);
+}
+
+.text-shadow {
+    text-shadow: 3px 3px 3px #000000;
+}

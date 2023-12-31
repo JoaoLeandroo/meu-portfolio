@@ -1,8 +1,8 @@
 
 export default function Header() {
     return(
-        <header className="max-w-[1920px] w-full h-10 bg-secundary-purple m-auto fixed top-0">
-            <nav className="w-full h-full">
+        <header className="w-screen h-10 bg-secundary-purple fixed top-0">
+            <nav className="w-full h-full max-w-[1920px] m-auto">
                 <ul className="w-full h-full text-white flex items-center justify-center gap-3">
                     <li>Sobre</li>
                     <li>Projetos</li>
