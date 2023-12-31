@@ -22,6 +22,22 @@ export default function Home() {
             />
           </div>
         </section>
+
+        <section className="max-w-[1464px] w-[80%] mt-28 m-auto text-center">
+          <h2 className="text-shadow text-white font-bold text-3xl mb-5 uppercase">Sobre</h2>
+          <p className="text-white font-medium text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem doloremque, est sed, laborum voluptatibus laboriosam quae illo facere eveniet non dolor minus animi saepe nobis inventore? Exercitationem, est ex!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem doloremque, est sed, laborum voluptatibus laboriosam quae illo facere eveniet non dolor minus animi saepe nobis inventore? Exercitationem, est ex!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem doloremque, est sed, laborum voluptatibus laboriosam quae illo facere eveniet non dolor minus animi saepe nobis inventore? Exercitationem, est ex!
+          </p>
+        </section>
+
+        <section className="max-w-[1464px] w-[80%] m-auto mt-28 text-center mb-72">
+          <h2 className="text-shadow text-white font-bold text-3xl mb-5 uppercase">Minhas Skills</h2>
+          <div className="w-full h-14 bg-secundary-purple rounded-lg">
+            Menu animado
+          </div>
+        </section>
       </main>
     </>
   )
