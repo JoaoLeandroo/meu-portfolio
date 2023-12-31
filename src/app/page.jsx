@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Header from "./components/Header/page"
+import { IoLogoJavascript } from "react-icons/io5";
 
 export default function Home() {
   return(
@@ -35,7 +36,7 @@ export default function Home() {
         <section className="max-w-[1464px] w-[80%] m-auto mt-28 text-center mb-72">
           <h2 className="text-shadow text-white font-bold text-3xl mb-5 uppercase">Minhas Skills</h2>
           <div className="w-full h-14 bg-secundary-purple rounded-lg">
-            Menu animado
+            <IoLogoJavascript size={50} color="yellow"/>
           </div>
         </section>
       </main>
