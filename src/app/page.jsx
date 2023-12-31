@@ -1,11 +1,12 @@
-
+import Header from "./components/Header/page"
 
 export default function Home() {
   return(
     <>
-      <h2>
-        Sucesso
-      </h2>
+      <Header/>
+      <main className="mt-10">
+        Corpo aplicação
+      </main>
     </>
   )
 }
