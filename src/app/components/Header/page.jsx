@@ -1,14 +1,19 @@
+import Link from "next/link"
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Header() {
     return(
-        <header className="w-screen h-10 bg-secundary-purple fixed top-0 z-50">
-            <nav className="w-full h-full max-w-[1920px] m-auto">
-                <ul className="w-full h-full text-white flex items-center justify-center gap-3">
-                    <li>Sobre</li>
-                    <li>Projetos</li>
-                    <li>Skills</li>
-                    <li>Contato</li>
-                </ul>
+        <header className="w-screen h-12 bg-secundary-purple fixed top-0 z-50">
+            <nav className="h-full max-w-[1464px] w-[80%] m-auto flex gap-4 items-center justify-end">
+                <Link href={"https://github.com/JoaoLeandroo"} target="blank" title="Github">
+                    <FaGithub size={30} color="#fff"/>
+                </Link>
+                <Link href={"https://www.instagram.com/joaoleandroo_/?hl=pt"} target="blank" title="Instagram">
+                    <FaInstagram size={30} color="#fff"/>
+                </Link>
+                <Link href={"https://www.linkedin.com/in/jo%C3%A3o-leandro-2b83b4209/"} target="blank" title="Linkedin">
+                    <FaLinkedin size={30} color="#fff"/>
+                </Link>
             </nav>
         </header>   
     )

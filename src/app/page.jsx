@@ -14,11 +14,12 @@ import CardProject from "./components/Card-project/page"
 import Footer from "./components/Footer/Page"
 
 export default function Home() {
+
   return(
     <>
       <Header/>
-      <main className="mt-10">
-        <section className="max-w-[1464px] w-[80%] m-auto bg-secundary-purple rounded-xl mt-28 flex justify-around max_640:flex-col">
+      <main className="">
+        <section className="max-w-[1464px] w-[80%] m-auto bg-secundary-purple rounded-xl mt-10 flex justify-around max_640:flex-col">
           <div className="text-white text-center flex items-center flex-col justify-center">
             <h1 className="text-shadow text-4xl font-semibold uppercase max_640:text-lg max_640:mt-3 max_1024:text-2xl">João Leandro</h1>
             <span className="text-shadow text-6xl font-bold max_640:text-2xl max_768:text-3xl max_1024:text-4xl">Web Developer</span>
