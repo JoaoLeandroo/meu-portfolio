@@ -4,11 +4,13 @@ import {  IoLogoJavascript,
           IoLogoHtml5, 
           IoLogoCss3,
           IoLogoPython,
-          IoLogoFigma
+          IoLogoFigma,
+          IoLogoNpm
 } from "react-icons/io5"
 import {  TbBrandTailwind, TbBrandNextjs } from "react-icons/tb"
 import { FaReact, FaGitSquare, FaGithubSquare } from 'react-icons/fa'
 import { SiTypescript } from "react-icons/si"
+import CardProject from "./components/Card-project/page"
 
 export default function Home() {
   return(
@@ -56,11 +58,36 @@ export default function Home() {
               <IoLogoPython size={80} color="#2ECCFA" title="Python" className="icons-animation"/>
               <FaGitSquare size={80} color="#FF8000" title="Git" className="icons-animation"/>
               <FaGithubSquare size={80} color="#000000" title="GitHub" className="icons-animation"/>
+              <IoLogoNpm size={80} color="#FF0000" title="npm" className="icons-animation"/>
           </div>
           </div>
         </section>
 
-        
+        <section className="max-w-[1464px] w-[80%] text-center mt-28 m-auto mb-72">
+          <h2 className="text-shadow uppercase font-bold text-3xl text-white">Projetos</h2>
+          <div className="mt-28 flex gap-6 flex-wrap justify-around">
+            <CardProject 
+              src="/assets/game-pikachu.png" 
+              alt="Game do Pikachu" 
+              github="https://github.com/JoaoLeandroo/game-pikachu"
+              deploy="https://joaoleandroo.github.io/game-pikachu/"
+            />
+            
+            <CardProject 
+              src="/assets/teste.png" 
+              alt="Game do Pikachu" 
+              github="https://github.com/JoaoLeandroo/game-pikachu"
+              deploy="https://joaoleandroo.github.io/game-pikachu/"
+            />
+
+            <CardProject 
+              src="/assets/game-pokemon.png" 
+              alt="Game do Pikachu" 
+              github="https://github.com/JoaoLeandroo/game-pikachu"
+              deploy="https://joaoleandroo.github.io/game-pikachu/"
+            />
+          </div>
+        </section>
       </main>
     </>
   )
