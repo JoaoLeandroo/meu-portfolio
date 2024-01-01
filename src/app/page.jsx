@@ -18,7 +18,7 @@ export default function Home() {
   return(
     <>
       <Header/>
-      <main className="">
+      <main className="mt-20">
         <section className="max-w-[1464px] w-[80%] m-auto bg-secundary-purple rounded-xl mt-10 flex justify-around max_640:flex-col">
           <div className="text-white text-center flex items-center flex-col justify-center">
             <h1 className="text-shadow text-4xl font-semibold uppercase max_640:text-lg max_640:mt-3 max_1024:text-2xl">João Leandro</h1>
