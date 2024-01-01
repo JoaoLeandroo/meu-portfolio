@@ -39,9 +39,8 @@ export default function Home() {
         <section className="max-w-[1464px] w-[80%] mt-20 m-auto text-center">
           <h2 className="text-shadow text-white font-bold text-3xl mb-5 uppercase">Sobre</h2>
           <p className="text-white font-medium text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem doloremque, est sed, laborum voluptatibus laboriosam quae illo facere eveniet non dolor minus animi saepe nobis inventore? Exercitationem, est ex!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem doloremque, est sed, laborum voluptatibus laboriosam quae illo facere eveniet non dolor minus animi saepe nobis inventore? Exercitationem, est ex!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem doloremque, est sed, laborum voluptatibus laboriosam quae illo facere eveniet non dolor minus animi saepe nobis inventore? Exercitationem, est ex!
+            Sou um estudante de programação, imerso no fascinante universo do desenvolvimento web. Com uma mente ávida por conhecimento, minha  jornada é marcada por uma busca incessante por novas habilidades e desafios. Especializado no front-end
+            desenho experiências envolventes, demonstrando um domínio excepcional no JavaScript. Além disso, estou extremamente apaixonado e envolvido nos estudos de React.
           </p>
         </section>
 
