@@ -11,6 +11,7 @@ import {  TbBrandTailwind, TbBrandNextjs } from "react-icons/tb"
 import { FaReact, FaGitSquare, FaGithubSquare } from 'react-icons/fa'
 import { SiTypescript } from "react-icons/si"
 import CardProject from "./components/Card-project/page"
+import Footer from "./components/Footer/Page"
 
 export default function Home() {
   return(
@@ -63,7 +64,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="max-w-[1464px] w-[80%] text-center mt-28 m-auto mb-72">
+        <section className="max-w-[1464px] w-[80%] text-center mt-28 m-auto">
           <h2 className="text-shadow uppercase mb-7 font-bold text-3xl text-white">Projetos</h2>
           <div className="flex gap-6 flex-wrap justify-around max_1024:gap-y-10">
             <CardProject 
@@ -74,21 +75,58 @@ export default function Home() {
             />
             
             <CardProject 
-              src="/assets/teste.png" 
-              alt="Game do Pikachu" 
-              github="https://github.com/JoaoLeandroo/game-pikachu"
-              deploy="https://joaoleandroo.github.io/game-pikachu/"
+              src="/assets/star-wars.png" 
+              alt="Projeto Star Wars a ordem Cronologica" 
+              github="https://github.com/JoaoLeandroo/page-star_wars-ordem_cronologica"
+              deploy="https://joaoleandroo.github.io/page-star_wars-ordem_cronologica/"
             />
 
             <CardProject 
-              src="/assets/game-pokemon.png" 
-              alt="Game do Pikachu" 
-              github="https://github.com/JoaoLeandroo/game-pikachu"
-              deploy="https://joaoleandroo.github.io/game-pikachu/"
+              src="/assets/cristiano.png" 
+              alt="Projeto Cristiano Ronaldo" 
+              github="https://github.com/JoaoLeandroo/cristiano_ronaldo_page"
+              deploy="https://joaoleandroo.github.io/cristiano_ronaldo_page/"
+            />
+
+            <CardProject 
+              src="/assets/jogo-velha.png" 
+              alt="Projeto Jogo da Velha" 
+              github="https://github.com/JoaoLeandroo/jogo-da-velha"
+              deploy="https://joaoleandroo.github.io/jogo-da-velha/"
+            />
+
+          <CardProject 
+              src="/assets/cep.png" 
+              alt="Projeto Buscador de CEP" 
+              github="https://github.com/JoaoLeandroo/buscador-cep-react"
+              deploy="https://buscador-cep-react-six.vercel.app/"
+            />
+
+            <CardProject 
+              src="/assets/movies.png" 
+              alt="Projeto filmes" 
+              github="https://github.com/JoaoLeandroo/project-movies"
+              deploy="https://jl-movies.netlify.app/"
+            />
+
+            <CardProject 
+              src="/assets/medusa.png" 
+              alt="Projeto home page Medusa" 
+              github="https://github.com/JoaoLeandroo/page-medusa"
+              deploy="https://page-medusa.vercel.app/"
+            />
+            
+            <CardProject 
+              src="/assets/luffy.png" 
+              alt="Projeto Luffy Gear Five" 
+              github="https://github.com/JoaoLeandroo/luffy-gear-five"
+              deploy="https://joaoleandroo.github.io/luffy-gear-five/"
             />
           </div>
         </section>
+
       </main>
+      <Footer/>
     </>
   )
 }
