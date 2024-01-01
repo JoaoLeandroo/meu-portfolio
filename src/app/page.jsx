@@ -64,8 +64,8 @@ export default function Home() {
         </section>
 
         <section className="max-w-[1464px] w-[80%] text-center mt-28 m-auto mb-72">
-          <h2 className="text-shadow uppercase font-bold text-3xl text-white">Projetos</h2>
-          <div className="mt-28 flex gap-6 flex-wrap justify-around">
+          <h2 className="text-shadow uppercase mb-7 font-bold text-3xl text-white">Projetos</h2>
+          <div className="flex gap-6 flex-wrap justify-around">
             <CardProject 
               src="/assets/game-pikachu.png" 
               alt="Game do Pikachu" 
