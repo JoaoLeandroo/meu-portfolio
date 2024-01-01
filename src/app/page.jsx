@@ -17,15 +17,15 @@ export default function Home() {
     <>
       <Header/>
       <main className="mt-10">
-        <section className="max-w-[1464px] w-[80%]  m-auto bg-secundary-purple rounded-xl mt-28 flex justify-around">
+        <section className="max-w-[1464px] w-[80%] m-auto bg-secundary-purple rounded-xl mt-28 flex justify-around max_640:flex-col">
           <div className="text-white text-center flex items-center flex-col justify-center">
-            <h1 className="text-shadow text-4xl font-semibold uppercase">João Leandro</h1>
-            <span className="text-shadow text-6xl font-bold">Web Developer</span>
+            <h1 className="text-shadow text-4xl font-semibold uppercase max_640:text-lg max_640:mt-3 max_1024:text-2xl">João Leandro</h1>
+            <span className="text-shadow text-6xl font-bold max_640:text-2xl max_768:text-3xl max_1024:text-4xl">Web Developer</span>
           </div>
 
-          <div>
+          <div className="max_640:flex items-center justify-center">
             <Image
-              className="my-image"
+              className="my-image max_640:w-40 max_768:w-48 max_1024:w-52"
               src={'/images/joaol.png'}
               width={260}
               height={260}
@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="max-w-[1464px] w-[80%] mt-28 m-auto text-center">
+        <section className="max-w-[1464px] w-[80%] mt-20 m-auto text-center">
           <h2 className="text-shadow text-white font-bold text-3xl mb-5 uppercase">Sobre</h2>
           <p className="text-white font-medium text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dolorem doloremque, est sed, laborum voluptatibus laboriosam quae illo facere eveniet non dolor minus animi saepe nobis inventore? Exercitationem, est ex!
@@ -65,7 +65,7 @@ export default function Home() {
 
         <section className="max-w-[1464px] w-[80%] text-center mt-28 m-auto mb-72">
           <h2 className="text-shadow uppercase mb-7 font-bold text-3xl text-white">Projetos</h2>
-          <div className="flex gap-6 flex-wrap justify-around">
+          <div className="flex gap-6 flex-wrap justify-around max_1024:gap-y-10">
             <CardProject 
               src="/assets/game-pikachu.png" 
               alt="Game do Pikachu" 
